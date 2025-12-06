@@ -55,5 +55,10 @@
       </table>
       <img src="{% static 'images/img.png' %}" alt="" width="400">
     </div>
+
+    {% comment %} {%%} -> template tags {{}}-> template variables {% endcomment %}
+    {% for i in employees %}
+      <h4>{{i}}</h4>
+    {% endfor %}
   </body>
 </html>

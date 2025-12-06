@@ -126,4 +126,10 @@ STATICFILES_DIRS =[ #folders where static files are
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
- 
+
+
+#Media files configuration
+
+#we used media directory so the images folder where the user uploaded will be saved in it
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR /'media'
